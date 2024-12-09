@@ -1,0 +1,27 @@
+
+.card {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  text-align: center;
+  gap: 1rem;
+
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.cartCard {
+  padding: 5px;
+  display: flex;
+  place-items: center;
+  gap: 3rem;
+
+  img {
+    height: 150px;
+    width: auto;
+  }
+}

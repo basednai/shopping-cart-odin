@@ -1,0 +1,28 @@
+.center {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.img {
+  animation-name: spinY;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    min-height: fit-content;
+}
+
+@keyframes spinY {
+  from {
+    transform: rotateY(0deg) scale(20) ;
+  }
+  to {
+    transform: rotateY(360deg) scale(20) ;
+  }
+}
+
