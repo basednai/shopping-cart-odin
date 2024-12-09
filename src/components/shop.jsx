@@ -40,7 +40,7 @@ export const Shop = () => {
     return (
       <div className={styles.centerGrid}>
         <img
-          src="/src/assets/graphics/loader.svg"
+          src="/loader.svg"
           alt="loading"
           className={styles.spinner}
         />
