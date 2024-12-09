@@ -7,7 +7,7 @@ function Home() {
       <Link to="shop">
         <div className={styles.center}>
           <div className={styles.content}>
-            <img src="src/assets/graphics/shop.svg" alt="shop" className={styles.img} />
+            <img src="/src/assets/graphics/shop.svg" alt="shop" className={styles.img} />
           </div>
         </div>
       </Link>
